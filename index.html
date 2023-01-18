@@ -24,14 +24,23 @@
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
+	<!-- Element ui -->
+	<link type="text/css" rel="stylesheet" href="css/index.css"/>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
 			  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 			<![endif]-->
+	<!-- Vue -->
+	<script src="js/vue.global.js"></script>
+	<!-- Element ui -->
+	<script src="js/index.full.js"></script>
 </head>
 <body>
+	<div id="app">
+		
+	</div>
 
 	<!-- Header -->
 	<header id="header" class="transparent-navbar">
@@ -699,6 +708,7 @@
 	<!-- /Contact -->
     
    
+
 	<footer id="footer">
         
 		<!-- container -->
@@ -744,8 +754,20 @@
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/jquery.countTo.js"></script>
-	<script src="js/main.js"></script>
+	
+	<script src="js/main.js" type="module"></script>
 
 </body>
-
+<script>
+	const App = {
+		data() {
+			return {
+				message: "Hello Element Plus",
+			};
+			},
+		};
+		const app = Vue.createApp(App);
+		app.use(ElementPlus);
+		app.mount('#app');
+</script>
 </html>
