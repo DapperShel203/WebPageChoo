@@ -514,7 +514,7 @@ textarea.input {
 .speaker .speaker-content {
   position: relative;
   padding: 30px;
-  background: #dd0a37;
+  background: #807879;
   text-align: right;
   z-index: 20;
 }
@@ -593,7 +593,7 @@ textarea.input {
   height: 60px;
   line-height: 60px;
   text-align: center;
-  background-color: #dd0a37 !important;
+  background-color: #460add !important;
   border-radius: 50%;
   padding: 0;
   color: #FFF;
@@ -621,7 +621,7 @@ textarea.input {
 }
 
 .speaker-modal .speaker-modal-content .speaker-job {
-  color: #dd0a37;
+  color: #867075;
 }
 
 .speaker-modal .speaker-modal-content .speaker-social {
@@ -663,7 +663,7 @@ textarea.input {
 }
 
 .speaker-modal .speaker-modal-content .speaker-events .speaker-event>span strong {
-  color: #dd0a37;
+  color: #775c62;
 }
 
 /*=========================================================
@@ -685,7 +685,7 @@ textarea.input {
   top: 0px;
   bottom: 0px;
   width: 4px;
-  background-color: #dd0a37;
+  background-color: #000000;
 }
 
 .event:last-child:after {
@@ -699,7 +699,7 @@ textarea.input {
   height: 60px;
   top: -60px;
   width: 4px;
-  background-color: #dd0a37;
+  background-color: #000000;
 }
 
 .event .event-day {
@@ -709,7 +709,7 @@ textarea.input {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: #dd0a37;
+  background: #1f1fd4;
   z-index: 10;
 }
 
@@ -720,7 +720,7 @@ textarea.input {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #dd0a37;
+  background: #0e2baa;
   z-index: 10;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
